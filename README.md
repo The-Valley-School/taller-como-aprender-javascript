@@ -10,7 +10,6 @@ Por si te da pereza navegar hasta el enlace 😜 te dejamos también una captura
 
 ## Algunos recursos online gratis para aprender JavaScript por tu cuenta:
 
-[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript)
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 Recuerda que también puedes buscar cosas concretas en Google filtrando por site:stackoverflow.com
