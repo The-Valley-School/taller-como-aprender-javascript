@@ -13,6 +13,8 @@ Por si te da pereza navegar hasta el enlace 😜 te dejamos también una captura
 [https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript)
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
+Recuerda que también puedes buscar cosas concretas en Google filtrando por site:stackoverflow.com
+
 ## Libros (aún existen):
 
 [https://www.amazon.com/You-Dont-Know-Js-Going/dp/1491924462/ref=dp_rm_title_0](https://www.amazon.com/You-Dont-Know-Js-Going/dp/1491924462/ref=dp_rm_title_0)
