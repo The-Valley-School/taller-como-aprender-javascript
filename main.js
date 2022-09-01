@@ -27,18 +27,51 @@ let products = [{
 
 // Esta función pinta todos los productos en el menú izquierdo
 function renderProductList() {
+  for (let i = 0; i < products.length; i++) {
+    renderProductInsideProductList(products[i]);
+  }
 }
 
 // Esta función pinta un producto en el menú izquierdo
 function renderProductInsideProductList(product) {
+  let elementBtn = document.createElement('button');
+  elementBtn.textContent = product.name;
+  elementBtn.classList.add('btn');
+  elementBtn.addEventListener('click', function () { renderProduct(product) });
+  let elementProductList = document.querySelector('.productList');
+  elementProductList.appendChild(elementBtn);
 }
 
 // Esta función pinta el detalle de un producto en el área principal
 function renderProduct(item) {
+  let elementProduct = document.querySelector('.product');
+  elementProduct.textContent = '';
+  let elementProductImg = document.createElement('img');
+  elementProductImg.setAttribute('src', item.urlImg);
+  elementProductImg.classList.add('img-product');
+
+  let elementProductPrice = document.createElement('p');
+  elementProductPrice.textContent = item.price + '€';
+  elementProductPrice.classList.add('price-product');
+
+  let elementProductBtn = document.createElement('button');
+  elementProductBtn.textContent = 'COMPRAR';
+  elementProductBtn.classList.add('btn-product');
+  elementProductBtn.addEventListener('click', function () { purchase(item) });
+
+  elementProduct.appendChild(elementProductImg);
+  elementProduct.appendChild(elementProductPrice);
+  elementProduct.appendChild(elementProductBtn);
 }
 
 // Función de compra: solo mostrará un mensaje :)
 function purchase(item) {
+  let elementProduct = document.querySelector('.product');
+  elementProduct.textContent = '';
+  let elementPurchase = document.createElement('p');
+  let message = 'Gracias por comprar nuestro/a ' + item.name;
+  elementPurchase.textContent = message;
+  elementProduct.appendChild(elementPurchase);
 }
 
 // Esto inicializa nuestra aplicación:
